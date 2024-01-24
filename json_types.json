@@ -1,0 +1,188 @@
+{
+  "Years": [
+    {
+      "Year": "2024",
+      "Students": [
+        {
+          "StudentID": "string",
+          "StudentWholeName": "string",
+          "StudentExperience": "string",
+          "StudentDietRestriction": "string",
+          "StudentLanguage": "string",
+          "Age": "number",
+          "Gender": "string",
+          "StudentBirthDate": "string",
+          "Address": "string",
+          "City": "string",
+          "PostalCode": "string",
+          "EnrollmentDate": "string",
+          "AttendanceDate": ["string", "string"],
+          "FeedbackSubmissions": ["string", "string"],
+          "ParentFeedback": ["string", "string"],
+          "ParentName": "string",
+          "ParentEmail": "string",
+          "ParentPhone": "string",
+          "Parent2Name": "string",
+          "Parent2Email": "string",
+          "Parent2Phone": "string",
+          "RegistrationsDate": "string",
+          "EmergencyContactName": "string",
+          "EmergencyContactPhone": "string",
+          "EmergencyContactRelationship": "string",
+          "Attendance": ["string", "string", "string"],
+          "HomeworkSubmissions": ["string", "string"],
+          "ProjectTitle": "string",
+          "ProjectSubmissions": ["string"],
+          "ProjectGrade": "string",
+          "ProgressReports": ["string", "string"],
+          "FeedbackFromInstructor": "string",
+          "ExpectedGraduateDate": "string",
+          "HealthConcerns": "string",
+          "SpecialNeeds": "string",
+          "CurrentSchool": "string"
+        }
+      ],
+      "Courses": {
+        "P1": {
+          "RegularCourses": {
+            "Classrooms": [
+              {
+                "CourseID": "string",
+                "CourseName": "string",
+                "CourseLevel": "string",
+                "CourseStartDate": "string",
+                "InstructorID": "string",
+                "InstructorName": "string",
+                "EnrolledStudents": ["string"]
+              }
+            ]
+          },
+          "BrightMinds": {
+            "Classes": [
+              {
+                "CourseID": "string",
+                "CourseName": "string",
+                "CourseLevel": "string",
+                "CourseStartDate": "string",
+                "Classroom": "string",
+                "InstructorID": "string",
+                "InstructorName": "string",
+                "EnrolledStudents": ["string", "string"]
+              }
+            ]
+          }
+        },
+        "P2": {
+          "RegularCourses": {
+            "Classrooms": [
+              {
+                "CourseID": "string",
+                "CourseName": "string",
+                "CourseLevel": "string",
+                "CourseStartDate": "string",
+                "InstructorID": "string",
+                "InstructorName": "string",
+                "EnrolledStudents": ["string"]
+              }
+            ]
+          },
+          "BrightMinds": {
+            "Classes": [
+              {
+                "CourseID": "string",
+                "CourseName": "string",
+                "CourseLevel": "string",
+                "CourseStartDate": "string",
+                "Classroom": "string",
+                "InstructorID": "string",
+                "InstructorName": "string",
+                "EnrolledStudents": ["string", "string"]
+              }
+            ]
+          }
+        }
+      },
+      "Events": {
+        "Codercamp": [
+          {
+            "EventName": "string",
+            "StartDate": "string",
+            "EndDate": "string",
+            "ParticipatingStudents": ["string"]
+          }
+        ],
+        "Workshops": []
+      },
+      "Order": {
+        "Payment": {
+          "OrderID": "string",
+          "PaymentStatus": "string",
+          "PaymentMethod": "string",
+          "PaymentDate": "string",
+          "DiscountsApplied": "boolean",
+          "DiscountAmount": "number",
+          "ReferralSource": "string",
+          "Notes": "string",
+          "OrderDetails": [
+            {
+              "ItemOrdered": "string",
+              "QuantityOrdered": "number",
+              "LastUpdateDate": "string"
+            }
+          ]
+        },
+        "Return": {
+          "ReturnID": "string",
+          "ReturnPrice": "number",
+          "ReturnOrder": "string",
+          "ReturnDate": "string"
+        }
+      }
+    },
+    {
+      "Year": "2025",
+      "Students": [],
+      "Courses": {
+        "P1": {
+          "RegularCourses": {
+            "Classrooms": []
+          },
+          "BrightMinds": {
+            "Classes": []
+          }
+        },
+        "P2": {
+          "RegularCourses": {
+            "Classrooms": []
+          },
+          "BrightMinds": {
+            "Classes": []
+          }
+        }
+      },
+      "Events": {
+        "Codercamp": [],
+        "Workshops": []
+      },
+      "Order": {
+        "Payment": {
+          "OrderID": "string",
+          "PaymentStatus": "string",
+          "PaymentMethod": "string",
+          "PaymentDate": "string",
+          "DiscountsApplied": "boolean",
+          "DiscountAmount": "number",
+          "ReferralSource": "string",
+          "Notes": "string",
+          "OrderDetails": []
+        },
+        "Return": {
+          "ReturnID": "string",
+          "ReturnPrice": "number",
+          "ReturnOrder": "string",
+          "ReturnDate": "string"
+        }
+      }
+    }
+  ]
+}
