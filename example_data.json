@@ -1,0 +1,270 @@
+{
+  "Years": [
+    {
+      "Year": "2024",
+      "Students": [
+        {
+          "StudentID": "S2001",
+          "StudentWholeName": "Ella Davis",
+          "StudentExperience": "Intermediate",
+          "StudentDietRestriction": "None",
+          "StudentLanguage": "English",
+          "Age": 15,
+          "Gender": "Female",
+          "StudentBirthDate": "2009-03-20",
+          "Address": "789 Elm Street",
+          "City": "Oakville",
+          "PostalCode": "67890",
+          "EnrollmentDate": "2024-01-20",
+          "AttendanceDate": ["2024-01-22", "2024-01-23"],
+          "FeedbackSubmissions": ["Feedback 1", "Feedback 2"],
+          "ParentFeedback": ["Satisfactory", "Excellent"],
+          "ParentName": "David Davis",
+          "ParentEmail": "david.davis@email.com",
+          "ParentPhone": "555-0302",
+          "Parent2Name": "Sarah Davis",
+          "Parent2Email": "sarah.davis@email.com",
+          "Parent2Phone": "555-0303",
+          "RegistrationsDate": "2023-12-10",
+          "EmergencyContactName": "Lucas Davis",
+          "EmergencyContactPhone": "555-0304",
+          "EmergencyContactRelationship": "Brother",
+          "Attendance": ["Present", "Absent", "Present"],
+          "HomeworkSubmissions": ["Completed", "Incomplete"],
+          "ProjectTitle": "Chemistry Experiment",
+          "ProjectSubmissions": ["Submitted"],
+          "ProjectGrade": "A",
+          "ProgressReports": ["2024-02-20", "2024-03-20"],
+          "FeedbackFromInstructor": "Outstanding work in chemistry",
+          "ExpectedGraduateDate": "2025-06-15",
+          "HealthConcerns": "None",
+          "SpecialNeeds": "None",
+          "CurrentSchool": "Oakville High School"
+        },
+        {
+          "StudentID": "S2002",
+          "StudentWholeName": "Liam Patel",
+          "StudentExperience": "Beginner",
+          "StudentDietRestriction": "Vegetarian",
+          "StudentLanguage": "French",
+          "Age": 14,
+          "Gender": "Male",
+          "StudentBirthDate": "2010-06-12",
+          "Address": "567 Pine Lane",
+          "City": "Hillsboro",
+          "PostalCode": "45678",
+          "EnrollmentDate": "2024-02-05",
+          "AttendanceDate": ["2024-02-06", "2024-02-07"],
+          "FeedbackSubmissions": ["Feedback 3", "Feedback 4"],
+          "ParentFeedback": ["Satisfactory", "Excellent"],
+          "ParentName": "Sophia Patel",
+          "ParentEmail": "sophia.patel@email.com",
+          "ParentPhone": "555-0402",
+          "Parent2Name": "Daniel Patel",
+          "Parent2Email": "daniel.patel@email.com",
+          "Parent2Phone": "555-0403",
+          "RegistrationsDate": "2023-11-15",
+          "EmergencyContactName": "Olivia Patel",
+          "EmergencyContactPhone": "555-0404",
+          "EmergencyContactRelationship": "Sister",
+          "Attendance": ["Present", "Present", "Absent"],
+          "HomeworkSubmissions": ["Incomplete", "Completed"],
+          "ProjectTitle": "Robotics Project",
+          "ProjectSubmissions": ["Pending"],
+          "ProjectGrade": "B",
+          "ProgressReports": ["2024-03-10", "2024-04-10"],
+          "FeedbackFromInstructor": "Improvement needed in robotics",
+          "ExpectedGraduateDate": "2026-05-25",
+          "HealthConcerns": "None",
+          "SpecialNeeds": "Dyslexia",
+          "CurrentSchool": "Hillsboro Middle School"
+        }
+      ],
+      "Courses": {
+        "P1": {
+          "RegularCourses": {
+            "Classrooms": [
+              {
+                "CourseID": "C401",
+                "CourseName": "Art History",
+                "CourseLevel": "Beginner",
+                "CourseStartDate": "2024-04-10",
+                "InstructorID": "I600",
+                "InstructorName": "Olivia Moore",
+                "EnrolledStudents": ["S2001"]
+              },
+              {
+                "CourseID": "C402",
+                "CourseName": "Physics Lab",
+                "CourseLevel": "Advanced",
+                "CourseStartDate": "2024-05-05",
+                "InstructorID": "I601",
+                "InstructorName": "Sophie Green",
+                "EnrolledStudents": ["S2002"]
+              }
+            ]
+          },
+          "BrightMinds": {
+            "Classes": [
+              {
+                "CourseID": "BM301",
+                "CourseName": "Advanced Chemistry",
+                "CourseLevel": "Intermediate",
+                "CourseStartDate": "2024-03-01",
+                "Classroom": "A13",
+                "InstructorID": "I700",
+                "InstructorName": "Michael Baker",
+                "EnrolledStudents": ["S2001", "S2002"]
+              },
+              {
+                "CourseID": "BM302",
+                "CourseName": "Digital Photography",
+                "CourseLevel": "Beginner",
+                "CourseStartDate": "2024-03-15",
+                "Classroom": "A14",
+                "InstructorID": "I701",
+                "InstructorName": "Emily Turner",
+                "EnrolledStudents": ["S2002"]
+              }
+            ]
+          }
+        },
+        "P2": {
+          "RegularCourses": {
+            "Classrooms": [
+              {
+                "CourseID": "C403",
+                "CourseName": "Computer Programming",
+                "CourseLevel": "Intermediate",
+                "CourseStartDate": "2024-09-15",
+                "InstructorID": "I702",
+                "InstructorName": "Robert Smith",
+                "EnrolledStudents": ["S2001", "S2002"]
+              },
+              {
+                "CourseID": "C404",
+                "CourseName": "World Geography",
+                "CourseLevel": "Advanced",
+                "CourseStartDate": "2024-09-20",
+                "InstructorID": "I703",
+                "InstructorName": "John Turner",
+                "EnrolledStudents": ["S2001"]
+              }
+            ]
+          },
+          "BrightMinds": {
+            "Classes": [
+              {
+                "CourseID": "BM303",
+                "CourseName": "Creative Writing",
+                "CourseLevel": "Intermediate",
+                "CourseStartDate": "2024-09-01",
+                "Classroom": "A15",
+                "InstructorID": "I704",
+                "InstructorName": "Laura Adams",
+                "EnrolledStudents": ["S2002"]
+              },
+              {
+                "CourseID": "BM304",
+                "CourseName": "Math Olympiad",
+                "CourseLevel": "Advanced",
+                "CourseStartDate": "2024-09-10",
+                "Classroom": "A16",
+                "InstructorID": "I705",
+                "InstructorName": "Mark Wilson",
+                "EnrolledStudents": ["S2001", "S2002"]
+              }
+            ]
+          }
+        }
+      },
+      "Events": {
+        "Codercamp": [
+          {
+            "EventName": "Autumn Break",
+            "StartDate": "2024-10-01",
+            "EndDate": "2024-10-05",
+            "ParticipatingStudents": ["S2001"]
+          },
+          {
+            "EventName": "Christmas Camp",
+            "StartDate": "2024-12-20",
+            "EndDate": "2024-12-25",
+            "ParticipatingStudents": ["S2002"]
+          }
+        ],
+        "Workshops": []
+      },
+      "Order": {
+        "Payment": {
+          "OrderID": "ORD2024-01",
+          "PaymentStatus": "Completed",
+          "PaymentMethod": "Credit Card",
+          "PaymentDate": "2024-01-10",
+          "DiscountsApplied": true,
+          "DiscountAmount": 10.00,
+          "ReferralSource": "Online Ad",
+          "Notes": "Deliver to classroom B3",
+          "OrderDetails": [
+            {
+              "ItemOrdered": "Course Materials",
+              "QuantityOrdered": 1,
+              "LastUpdateDate": "2024-01-11"
+            }
+          ]
+        },
+        "Return": {
+          "ReturnID": "RET2024-01",
+          "ReturnPrice": 25.00,
+          "ReturnOrder": "ORD2024-01",
+          "ReturnDate": "2024-02-15"
+        }
+      }
+    },
+    {
+      "Year": "2025",
+      "Students": [],
+      "Courses": {
+        "P1": {
+          "RegularCourses": {
+            "Classrooms": []
+          },
+          "BrightMinds": {
+            "Classes": []
+          }
+        },
+        "P2": {
+          "RegularCourses": {
+            "Classrooms": []
+          },
+          "BrightMinds": {
+            "Classes": []
+          }
+        }
+      },
+      "Events": {
+        "Codercamp": [],
+        "Workshops": []
+      },
+      "Order": {
+        "Payment": {
+          "OrderID": "",
+          "PaymentStatus": "",
+          "PaymentMethod": "",
+          "PaymentDate": "",
+          "DiscountsApplied": false,
+          "DiscountAmount": 0.00,
+          "ReferralSource": "",
+          "Notes": "",
+          "OrderDetails": []
+        },
+        "Return": {
+          "ReturnID": "",
+          "ReturnPrice": 0.00,
+          "ReturnOrder": "",
+          "ReturnDate": ""
+        }
+      }
+    }
+  ]
+}
